@@ -100,7 +100,7 @@ class HomeTab extends StatelessWidget {
                 'Select Country',
                 style: Theme.of(context).textTheme.caption.copyWith(
                     // ignore: deprecated_member_use
-                    color: Theme.of(context).textTheme.display2.color),
+                    color: Theme.of(context).textTheme.headline3.color),
               ),
             ],
           ),
@@ -382,7 +382,7 @@ class CountryTitle extends StatelessWidget {
                         text: TextSpan(
                           text: model.currentSelectedCountryName,
                           // ignore: deprecated_member_use
-                          style: Theme.of(context).textTheme.headline.copyWith(
+                          style: Theme.of(context).textTheme.headline1.copyWith(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 40,
                               ),

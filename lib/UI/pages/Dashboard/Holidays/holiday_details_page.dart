@@ -109,7 +109,7 @@ class HolidayDetailsPageState extends State<HolidayDetailsPage>
                       "${currentMonthHolidayList.length == 0 ? "No" : currentMonthHolidayList.length} ${currentMonthHolidayList.length == 1 ? "holiday" : "holidays"}",
                       textAlign: TextAlign.left,
                       // ignore: deprecated_member_use
-                      style: Theme.of(context).textTheme.headline.copyWith(
+                      style: Theme.of(context).textTheme.headline1.copyWith(
                             fontWeight: FontWeight.bold,
                           ),
                     ),
@@ -144,7 +144,7 @@ class HolidayDetailsPageState extends State<HolidayDetailsPage>
                         style: Theme.of(context)
                             .textTheme
                             // ignore: deprecated_member_use
-                            .headline
+                            .headline1
                             .copyWith(fontSize: 16),
                       ),
                     )
@@ -172,7 +172,7 @@ class HolidayDetailsPageState extends State<HolidayDetailsPage>
                                         style: Theme.of(context)
                                             .textTheme
                                             // ignore: deprecated_member_use
-                                            .headline
+                                            .headline1
                                             .copyWith(
                                               fontSize: 16,
                                             ),
@@ -188,7 +188,7 @@ class HolidayDetailsPageState extends State<HolidayDetailsPage>
                                             .textTheme
                                             // .subhead
                                             // ignore: deprecated_member_use
-                                            .subtitle
+                                            .subtitle1
                                             .copyWith(
                                               fontWeight: FontWeight.w300,
                                             ),
@@ -201,7 +201,7 @@ class HolidayDetailsPageState extends State<HolidayDetailsPage>
                                         style: Theme.of(context)
                                             .textTheme
                                             // ignore: deprecated_member_use
-                                            .display1
+                                            .headline4
                                             .copyWith(
                                                 fontWeight: FontWeight.w300),
                                       ),
@@ -219,7 +219,7 @@ class HolidayDetailsPageState extends State<HolidayDetailsPage>
                                           style: Theme.of(context)
                                               .textTheme
                                               // ignore: deprecated_member_use
-                                              .headline
+                                              .headline1
                                               .copyWith(
                                                   fontSize: 14,
                                                   fontWeight: FontWeight.w300),

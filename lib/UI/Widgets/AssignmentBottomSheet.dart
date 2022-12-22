@@ -21,7 +21,7 @@ class _AssignmentBottomSheetState extends State<AssignmentBottomSheet> {
   TextEditingController _fileNamecontroller = TextEditingController();
 
   String _fileName;
-  String _path = null;
+  String _path;
 
   final _scaffoldKey = GlobalKey<ScaffoldState>();
 

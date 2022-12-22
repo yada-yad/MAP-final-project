@@ -87,7 +87,7 @@ class _FeesPageState extends State<FeesPage>
                       string.fees_due,
                       style: ktitleStyle.copyWith(
                           // ignore: deprecated_member_use
-                          color: Theme.of(context).textTheme.body1.color),
+                          color: Theme.of(context).textTheme.bodyText2.color),
                     ),
                   ),
                   Tab(
@@ -95,7 +95,7 @@ class _FeesPageState extends State<FeesPage>
                       string.fees_paid,
                       style: ktitleStyle.copyWith(
                           // ignore: deprecated_member_use
-                          color: Theme.of(context).textTheme.body1.color),
+                          color: Theme.of(context).textTheme.bodyText2.color),
                     ),
                   ),
                 ],

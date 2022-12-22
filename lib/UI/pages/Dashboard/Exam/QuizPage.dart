@@ -93,7 +93,7 @@ class StartPage extends StatelessWidget {
         children: [
           Text(model.selectedTopic.topicName,
               // ignore: deprecated_member_use
-              style: Theme.of(context).textTheme.headline),
+              style: Theme.of(context).textTheme.headline1),
           Divider(),
           Expanded(
             child: Text(model.selectedTopic.description),
@@ -142,7 +142,7 @@ class FinishPage extends StatelessWidget {
               Text(
                 model.selectedTopic.topicName,
                 // ignore: deprecated_member_use
-                style: Theme.of(context).textTheme.headline,
+                style: Theme.of(context).textTheme.headline1,
               ),
               MaterialButton(
                 onPressed: model.checkAnswers,
@@ -349,7 +349,7 @@ class QuestionPage extends StatelessWidget {
                   child: Text(
                     option.toString(),
                     // ignore: deprecated_member_use
-                    style: Theme.of(context).textTheme.body2,
+                    style: Theme.of(context).textTheme.bodyText1,
                   ),
                 ),
               )
@@ -409,7 +409,7 @@ class QuestionPage extends StatelessWidget {
                   child: Text(
                     option.toString(),
                     // ignore: deprecated_member_use
-                    style: Theme.of(context).textTheme.body2,
+                    style: Theme.of(context).textTheme.bodyText1,
                   ),
                 ),
               )
